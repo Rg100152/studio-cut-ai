@@ -1,0 +1,39 @@
+{
+  "project": {
+    "name": "StudioCut AI",
+    "version": "1.0.0",
+    "author": {
+      "name": "Raj Gautam",
+      "role": "Developer",
+      "socials": {
+        "github": "https://github.com/Rg100152",
+        "instagram": "@linux.userraj"
+      }
+    },
+    "tech_stack": {
+      "frontend": ["HTML5", "Tailwind CSS", "JavaScript"],
+      "backend": ["Python", "Flask"],
+      "libraries": ["Pillow", "NumPy", "requests"]
+    },
+    "features": [
+      {
+        "id": 1,
+        "name": "Background Removal",
+        "type": "AI Segmentation",
+        "enabled": true
+      },
+      {
+        "id": 2,
+        "name": "Color Customizer",
+        "type": "Canvas Filter",
+        "enabled": true
+      }
+    ],
+    "settings": {
+      "port": 5000,
+      "host": "0.0.0.0",
+      "debug_mode": false,
+      "max_upload_size_mb": 15
+    }
+  }
+}
